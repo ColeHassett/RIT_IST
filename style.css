@@ -1,0 +1,373 @@
+#heading-text {
+    position: relative;
+    top: 35%;
+    font-size: 7vh;
+    color: #fff;
+    z-index: 99;
+    width: 100%;
+}
+#heading-text h1 {
+    font-family: Montserrat,sans-serif;
+    font-size: 4vw;
+    letter-spacing: 2px;
+    text-align: center;
+}
+#heading-text h1 span {
+    color: #F36E21;
+}
+#heading-text p {
+    font-family: geo-sans-light,sans-serif;
+    color: #fdfdfe;
+    font-size: 20px;
+    width: 100%;
+    text-align: center;
+}
+#hero {
+  margin-top: 15%;
+  margin-bottom: 20%;
+  background-color: transparent;
+}
+body {
+  background-image: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url("bg.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  font-family: Helvetica;
+}
+div {
+  display: block;
+}
+section {
+  margin-bottom: 3%;
+  background-color: white;
+  padding-top: .5%;
+  padding-bottom: .5%;
+}
+h1 {
+  font-size: 36px;
+  text-align: center;
+}
+#about {
+  text-align: center;
+  background-color: white;
+  margin: 1% 30%;
+  padding: 1%;
+}
+#about h2 {
+  font-size: 36px;
+}
+#graduate, #content {
+  margin: 1% 20%;
+  background-color: transparent;
+  color: white;
+  border: none;
+}
+#graduate h1, #content h1{
+  text-align: center;
+}
+#graduate div, #content div{
+  background-color: white;
+  color: black;
+}
+#graduate ul, #content ul{
+  background-color: transparent;
+  border: none;
+}
+#certs {
+  text-align: center;
+  margin: 1% 36%;
+  padding-top: .5%;
+}
+#minors h1 {
+  text-align: center;
+}
+#minors {
+  margin: 1% 15%;
+  padding-top: .5%;
+  background-color: transparent;
+  color: white;
+}
+.orangebutton {
+  background-color: #ff8000;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  width: 100%;
+}
+#researchInterest h2 {
+  background-color: #ff8000;
+  display: inline-block;
+  border-radius: 10px;
+  padding: 45px;
+  margin: 15px;
+  width: 25%;
+  cursor: pointer;
+}
+#researchInterest, #researchFaculty {
+  text-align: center;
+  background-color: transparent;
+  color: white;
+}
+#researchFaculty h2 {
+  background-color: #ff8000;
+  display: inline-block;
+  border-radius: 10px;
+  padding: 45px;
+  margin: 15px;
+  width: 12%;
+  cursor: pointer;
+}
+#researchFaculty {
+  text-align: center;
+  background-color: transparent;
+  color: white;
+}
+#intro {
+  margin: 1% 20%;
+  text-align: center;
+  background-color: transparent;
+  color: white;
+}
+#intro h2 {
+  color: #ff8000;
+}
+#degreeStats {
+  margin: 1% 5%;
+  text-align: center;
+  background-color: transparent;
+  color: white;
+}
+#degreeStats div {
+  display: inline-block;
+  width: 20%;
+  background-color: #14314e;
+  margin: auto 1%;
+  padding: 5% 1%;
+  font-family: Verdana, Geneva, sans-serif;
+}
+#degreeStats h2 {
+  font-size: 32px;
+}
+#degreeStats p {
+  font-size: 14px;
+}
+#employers {
+  margin: 1% 20%;
+  text-align: center;
+  background-color: transparent;
+  color: white;
+}
+#employers p {
+  color: #ff8000;
+  display: inline-block;
+  margin: auto 1%;
+  font-weight: bold;
+}
+#careers {
+  margin: 1% 20%;
+  text-align: center;
+  background-color: transparent;
+  color: white;
+  margin-bottom: 5%;
+}
+#careers p {
+  color: #ff8000;
+  display: inline-block;
+  margin: auto 1%;
+  font-weight: bold;
+}
+#social {
+  text-align: center;
+}
+#social h1 {
+  color: #ff8000;
+}
+#social img {
+  height: 40px;
+  width: 40px;
+}
+#social h2 {
+  font-size: 20px;
+}
+#social p {
+  color: gray;
+}
+#quickLinks {
+  margin: 1% 35%;
+  text-align: center;
+  background-color: transparent;
+}
+#quickLinks h3 {
+  display: inline-block;
+  margin: auto 2%;
+}
+#quickLinks a {
+  text-decoration: none;
+  color: #337ab7;
+}
+#quickLinks a:hover {
+  color: white;
+}
+#copyright {
+  margin: 2% 35%;
+  text-align: center;
+  background-color: transparent;
+  color: white;
+}
+#copyright a {
+  text-decoration: none;
+  color: #337ab7;
+}
+#copyright a:hover {
+  color: white;
+}
+#resources {
+  margin: 1% 15%;
+  background-color: transparent;
+  color: white;
+}
+table, thead, tbody {
+  text-align: center;
+  border-collapse: collapse;
+  width: 100%;
+}
+th {
+  background-color: lightgray;
+  color: #ff8000;
+}
+th, td {
+  padding: 5px;
+  border-bottom: 1px solid gray;
+}
+#map {
+  text-align: center;
+}
+#tables div {
+  display: inline-block;
+
+}
+#tables {
+  text-align: center;
+  background-color: transparent;
+  margin-top: 5%;
+  margin-bottom: 10%;
+}
+.tablebutton {
+  background-color: #ff8000;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  padding: 100px;
+  margin: 40px;
+}
+.tablebutton:hover, .orangebutton:hover {
+  background-color: rgba(255, 255, 255, 0.25);
+}
+#minors ul {
+  list-style-type: none;
+}
+#minors a {
+  color: #337ab7;
+  font-weight: bold;
+}
+#minors a:hover {
+  color: brown;
+  cursor: pointer;
+}
+#certs {
+  color: white;
+  background-color: transparent;
+}
+#certs a {
+  color: #337ab7;
+  font-weight: bold;
+  text-decoration: none;
+}
+#certs a:hover {
+  color: white;
+  cursor: pointer;
+}
+#about {
+  border-radius: 10px;
+}
+.panel {
+    position: fixed;
+    left: -15.625em;
+    width: 15.625em;
+}
+nav {
+  background-color: black;
+  color: white;
+}
+nav ul {
+  list-style-type: none;
+}
+nav a {
+  color: #337ab7;
+  text-decoration: none;
+}
+nav a:hover {
+  color: white;
+}
+#navButton a{
+  background-color: black;
+  width: 100%;
+  padding: 5px;
+}
+#newsButton a{
+  background-color: black;
+  width: 100%;
+  padding: 5px;
+}
+#menu {
+  width: 15%;
+}
+.push {
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  position: relative;
+}
+.push a {
+  text-decoration: none;
+  color: white;
+}
+.push a:hover {
+  color: brown;
+}
+#news {
+  text-align: center;
+  background-color: transparent;
+}
+#news h2 {
+  display: inline-block;
+  width: 25%;
+}
+#people ul{
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+#people li {
+  display: inline-block;
+  padding: 5px;
+  margin: 5px;
+  width: 20%;
+  background-color: rgba(255, 255, 255, 0.25);
+  border: 1px solid black;
+  cursor: pointer;
+}
+#people li:hover {
+  background-color: #ff8000;
+}
+#people {
+  text-align: center;
+  margin: 1% 10%;
+  padding-top: .5%;
+  background-color: transparent;
+  color: white
+}
+#people h1{
+  font-size: 36px;
+}

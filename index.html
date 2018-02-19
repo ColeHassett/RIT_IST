@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>IST Department at RIT</title>
+	<link rel="stylesheet" href="jquery-ui-1.12.1.custom/jquery-ui.min.css">
+  <link type="text/css" rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="vex/dist/css/vex.css" />
+  <link rel="stylesheet" href="vex/dist/css/vex-theme-os.css" />
+</head>
+<body>
+
+  <nav id="menu" class="panel" role="navigation" style="transition: right;">
+      <ul>
+          <li><h3>Navigation</h3></li>
+          <li><a href="#hero">Top</a></li>
+          <li><a href="#about">About</a></li>
+          <li><h3>Degrees</h3></li>
+          <li><a href="#content">Undergraduate Degrees</a></li>
+          <li><a href="#graduate">Graduate Degrees</a></li>
+          <li><a href="#minors">Minors</a></li>
+          <li><h3>Employment Statistics</h3></li>
+          <li><a href="#intro">Career Information</a></li>
+          <li><a href="#map">Career Locations</a></li>
+          <li><h3>Our People and Research</h3></li>
+          <li><a href="#people">People</a></li>
+          <li><a href="#researchInterest">Research by Interest Area</a></li>
+          <li><a href="#researchFaculty">Research by Faculty</a></li>
+          <li><h3>Extras</h3></li>
+          <li><a href="#resources">Resources</a></li>
+          <li><a href="#news">News</a></li>
+          <li><a href="#social">Social</a></li>
+      </ul>
+  </nav>
+
+  <div id="navButton" class="push">
+    <a href="#menu" class="menu-link">&#9776;  Navigation</a><br/><br/>
+  </div>
+
+  <section id="hero" style="height:100%">
+    <div id="heading-text">
+  		<h1>
+        <span id="animate1">Information</span>
+        <span id="animate2" style="color:white;">Sciences</span>
+        <span id="animateAmp" style="color:white;">&amp;</span><br>
+        <span id="animate3" style="color:white;">Technologies</span>
+        <span id="animate4" style="color:white;">@ RIT</span>
+      </h1>
+  	</div>
+  </section>
+
+	<section id="about" style="height:100%"></section>
+
+	<section id="content" style="height:100%">
+    <h1>Undergraduate Degrees</h1>
+    <ul id="contentul"></ul>
+  </section>
+
+  <section id="graduate" style="height:100%">
+    <h1>Graduate Degrees</h1>
+    <ul id="graduateul"></ul>
+  </section>
+
+  <section id="certs" style="height:100%">
+    <h1>Our Graduate Advanced Certificates</h1>
+    <p><a id="cert0" href="http://www.rit.edu/programs/web-development-adv-cert"></a></p>
+    <p><a id="cert1" href="http://www.rit.edu/programs/networking-planning-and-design-adv-cert"></a></p>
+  </section>
+
+  <section id="minors" style="height:100%">
+    <h1>Minors</h1>
+    <div id="minorsacc"></div>
+  </section>
+
+  <section id="intro" style="height:100%"></section><hr/>
+
+  <section id="degreeStats" style="height:100%"></section><hr/>
+
+  <section id="employers" style="height:100%"></section>
+
+  <section id="careers" style="height:100%"></section>
+
+  <section id="map">
+    <iframe width="1000" height="700" frameborder="0" scrolling="no" id="map-iframe" src="https://ist.rit.edu/api/map/">
+      <p>Your browser does not support this map.</p>
+    </iframe>
+  </section>
+
+  <section id="tables" style="height:100%">
+    <div id="coop"></div>
+    <div id="professional"></div>
+  </section>
+
+  <section id="people" style="height:100%">
+    <h1>Our People</h1>
+    <hr/><h2>Faculty</h2><hr/>
+    <ul id="faculty"></ul>
+    <hr/><h2>Staff</h2><hr/>
+    <ul id="staff"></ul>
+  </section>
+
+  <section id="researchInterest" style="height:100%">
+    <h1>Faculty Research: Areas of Interest</h1>
+  </section>
+
+  <section id="researchFaculty" style="height:100%">
+    <h1>Faculty Research: Lookup by Faculty</h1>
+  </section>
+
+  <section id="resources" style="height:100%"></section>
+
+  <section id="news" style="height:100%"></section>
+
+  <section id="contact" style="height:100%; background-color: transparent;">
+    <iframe style="background-color: white;" width="100%" height="560" src="http://ist.rit.edu/api/contactForm/"></iframe>
+  </section>
+
+  <section id="social" style="height:100%"></section>
+
+  <section id="quickLinks" style="height:100%"></section>
+
+  <section id="copyright" style="height:100%"></section>
+
+  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="bigSlide/src/jquery.big-slide.js"></script>
+  <script src="vex/dist/js/vex.combined.min.js"></script>
+  <script>vex.defaultOptions.className = 'vex-theme-os'</script>
+  <script src="jquery-ui-1.12.1.custom/jquery-ui.min.js"></script>
+  <script type="text/javascript" src="project2.js"></script>
+  <script src="sticky/jquery.sticky.js"></script>
+</body>
+</html>
